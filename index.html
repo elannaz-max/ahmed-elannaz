@@ -5,7 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>مكتب الأستاذ أحمد العناز بالمغرب</title>
   <meta name="description" content="صفحة تعريفية مختصرة لمكتب الأستاذ أحمد العناز بالرباط – المغرب." />
-  <style>
+ /* إصلاح عرض النص في الهاتف */
+@media (max-width: 768px) {
+  .container {
+    padding: 14px !important;
+  }
+
+  .grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .card {
+    max-height: none !important;
+    overflow: visible !important;
+  }
+
+  .small {
+    font-size: 16px !important;
+    line-height: 1.9 !important;
+  }
+}
+<style>
     :root{
       --bg:#0b1220;
       --card:#0f1a33;
