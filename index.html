@@ -192,6 +192,16 @@
 .wa-icon {
   font-size: 18px;
 }
+ .btn-wa{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-wa img{
+  width: 56px;      /* كبّر/صغّر هنا */
+  height: 56px;
+}
   </style>
 </head>
 
@@ -274,12 +284,11 @@
        <div class="kv">
        <div class="k">الهاتف</div>
        <div class="v"><span class="tel">+212 661 157 082</span></div>
-       <a class="btn btn-wa" href="https://wa.me/212661157082" target="_blank" rel="noopener">
-       <span class="wa-icon">🟢</span>
-       التواصل عبر واتساب
+       <a href="https://wa.me/212661157082" class="btn-wa" aria-label="واتساب">
+       <img src="whatsapp.png.jpg" alt="WhatsApp">
        </a>
        <div class="note">
-       أرسل رسالة مختصرة للتعريف، وسيتم الرد في أقرب وقت.
+       أرسل رسالة واتساب مختصرة للتعريف، وسيتم الرد في أقرب وقت.
        </div>
             
        <div class="k">الإميل</div>
